@@ -1,0 +1,1466 @@
+{
+  "tenant": "halcyon",
+  "people": [
+    {
+      "id": "halcyon-p-000",
+      "name": "Halcyon Person 000",
+      "role": "Engineer",
+      "joined": "2023-01-15",
+      "left": "2026-02-01"
+    },
+    {
+      "id": "halcyon-p-001",
+      "name": "Halcyon Person 001",
+      "role": "Engineer",
+      "joined": "2024-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-002",
+      "name": "Halcyon Person 002",
+      "role": "Engineer",
+      "joined": "2025-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-003",
+      "name": "Halcyon Person 003",
+      "role": "Engineer",
+      "joined": "2023-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-004",
+      "name": "Halcyon Person 004",
+      "role": "Engineer",
+      "joined": "2024-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-005",
+      "name": "Halcyon Person 005",
+      "role": "Engineer",
+      "joined": "2025-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-006",
+      "name": "Halcyon Person 006",
+      "role": "Engineer",
+      "joined": "2023-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-007",
+      "name": "Halcyon Person 007",
+      "role": "Engineer",
+      "joined": "2024-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-008",
+      "name": "Halcyon Person 008",
+      "role": "Engineer",
+      "joined": "2025-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-009",
+      "name": "Halcyon Person 009",
+      "role": "Engineer",
+      "joined": "2023-01-15",
+      "left": "2026-02-01"
+    },
+    {
+      "id": "halcyon-p-010",
+      "name": "Halcyon Person 010",
+      "role": "Engineer",
+      "joined": "2024-01-15",
+      "left": null
+    },
+    {
+      "id": "halcyon-p-011",
+      "name": "Halcyon Person 011",
+      "role": "Engineer",
+      "joined": "2025-01-15",
+      "left": null
+    }
+  ],
+  "teams": [
+    {
+      "id": "halcyon-team-00",
+      "name": "Halcyon Platform Team 00"
+    },
+    {
+      "id": "halcyon-team-01",
+      "name": "Halcyon Platform Team 01"
+    },
+    {
+      "id": "halcyon-team-02",
+      "name": "Halcyon Platform Team 02"
+    },
+    {
+      "id": "halcyon-team-03",
+      "name": "Halcyon Platform Team 03"
+    }
+  ],
+  "services": [
+    {
+      "id": "halcyon-svc-00",
+      "name": "Halcyon Service 00",
+      "tier": "critical"
+    },
+    {
+      "id": "halcyon-svc-01",
+      "name": "Halcyon Service 01",
+      "tier": "critical"
+    },
+    {
+      "id": "halcyon-svc-02",
+      "name": "Halcyon Service 02",
+      "tier": "critical"
+    },
+    {
+      "id": "halcyon-svc-03",
+      "name": "Halcyon Service 03",
+      "tier": "critical"
+    },
+    {
+      "id": "halcyon-svc-04",
+      "name": "Halcyon Service 04",
+      "tier": "critical"
+    },
+    {
+      "id": "halcyon-svc-05",
+      "name": "Halcyon Service 05",
+      "tier": "standard"
+    },
+    {
+      "id": "halcyon-svc-06",
+      "name": "Halcyon Service 06",
+      "tier": "standard"
+    },
+    {
+      "id": "halcyon-svc-07",
+      "name": "Halcyon Service 07",
+      "tier": "standard"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "halcyon-adr-000",
+      "title": "Reliability decision 000",
+      "status": "accepted",
+      "decided_at": "2023-06-01"
+    },
+    {
+      "id": "halcyon-adr-001",
+      "title": "Reliability decision 001",
+      "status": "accepted",
+      "decided_at": "2024-06-02"
+    },
+    {
+      "id": "halcyon-adr-002",
+      "title": "Reliability decision 002",
+      "status": "accepted",
+      "decided_at": "2025-06-03"
+    },
+    {
+      "id": "halcyon-adr-003",
+      "title": "Reliability decision 003",
+      "status": "accepted",
+      "decided_at": "2023-06-04"
+    },
+    {
+      "id": "halcyon-adr-004",
+      "title": "Reliability decision 004",
+      "status": "accepted",
+      "decided_at": "2024-06-05"
+    },
+    {
+      "id": "halcyon-adr-005",
+      "title": "Reliability decision 005",
+      "status": "accepted",
+      "decided_at": "2025-06-06"
+    },
+    {
+      "id": "halcyon-adr-006",
+      "title": "Reliability decision 006",
+      "status": "accepted",
+      "decided_at": "2023-06-07"
+    },
+    {
+      "id": "halcyon-adr-007",
+      "title": "Reliability decision 007",
+      "status": "accepted",
+      "decided_at": "2024-06-08"
+    },
+    {
+      "id": "halcyon-adr-008",
+      "title": "Reliability decision 008",
+      "status": "accepted",
+      "decided_at": "2025-06-09"
+    },
+    {
+      "id": "halcyon-adr-009",
+      "title": "Reliability decision 009",
+      "status": "accepted",
+      "decided_at": "2023-06-10"
+    },
+    {
+      "id": "halcyon-adr-010",
+      "title": "Reliability decision 010",
+      "status": "accepted",
+      "decided_at": "2024-06-11"
+    },
+    {
+      "id": "halcyon-adr-011",
+      "title": "Reliability decision 011",
+      "status": "accepted",
+      "decided_at": "2025-06-12"
+    },
+    {
+      "id": "halcyon-adr-012",
+      "title": "Reliability decision 012",
+      "status": "accepted",
+      "decided_at": "2023-06-13"
+    },
+    {
+      "id": "halcyon-adr-013",
+      "title": "Reliability decision 013",
+      "status": "accepted",
+      "decided_at": "2024-06-14"
+    },
+    {
+      "id": "halcyon-adr-014",
+      "title": "Reliability decision 014",
+      "status": "accepted",
+      "decided_at": "2025-06-15"
+    },
+    {
+      "id": "halcyon-adr-015",
+      "title": "Reliability decision 015",
+      "status": "accepted",
+      "decided_at": "2023-06-16"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "halcyon-inc-000",
+      "severity": "SEV1",
+      "summary": "Dependency incident 000"
+    },
+    {
+      "id": "halcyon-inc-001",
+      "severity": "SEV1",
+      "summary": "Dependency incident 001"
+    },
+    {
+      "id": "halcyon-inc-002",
+      "severity": "SEV1",
+      "summary": "Dependency incident 002"
+    }
+  ],
+  "documents": [
+    {
+      "id": "halcyon-doc-000",
+      "kind": "runbook",
+      "title": "Halcyon operating note 000",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 000."
+    },
+    {
+      "id": "halcyon-doc-001",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 001",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 001."
+    },
+    {
+      "id": "halcyon-doc-002",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 002",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 002."
+    },
+    {
+      "id": "halcyon-doc-003",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 003",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 003."
+    },
+    {
+      "id": "halcyon-doc-004",
+      "kind": "runbook",
+      "title": "Halcyon operating note 004",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 004."
+    },
+    {
+      "id": "halcyon-doc-005",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 005",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 005."
+    },
+    {
+      "id": "halcyon-doc-006",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 006",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 006."
+    },
+    {
+      "id": "halcyon-doc-007",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 007",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 007."
+    },
+    {
+      "id": "halcyon-doc-008",
+      "kind": "runbook",
+      "title": "Halcyon operating note 008",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 008."
+    },
+    {
+      "id": "halcyon-doc-009",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 009",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 009."
+    },
+    {
+      "id": "halcyon-doc-010",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 010",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 010."
+    },
+    {
+      "id": "halcyon-doc-011",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 011",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 011."
+    },
+    {
+      "id": "halcyon-doc-012",
+      "kind": "runbook",
+      "title": "Halcyon operating note 012",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 012."
+    },
+    {
+      "id": "halcyon-doc-013",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 013",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 013."
+    },
+    {
+      "id": "halcyon-doc-014",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 014",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 014."
+    },
+    {
+      "id": "halcyon-doc-015",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 015",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 015."
+    },
+    {
+      "id": "halcyon-doc-016",
+      "kind": "runbook",
+      "title": "Halcyon operating note 016",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 016."
+    },
+    {
+      "id": "halcyon-doc-017",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 017",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 017."
+    },
+    {
+      "id": "halcyon-doc-018",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 018",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 018."
+    },
+    {
+      "id": "halcyon-doc-019",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 019",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 019."
+    },
+    {
+      "id": "halcyon-doc-020",
+      "kind": "runbook",
+      "title": "Halcyon operating note 020",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 020."
+    },
+    {
+      "id": "halcyon-doc-021",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 021",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 021."
+    },
+    {
+      "id": "halcyon-doc-022",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 022",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 022."
+    },
+    {
+      "id": "halcyon-doc-023",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 023",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 023."
+    },
+    {
+      "id": "halcyon-doc-024",
+      "kind": "runbook",
+      "title": "Halcyon operating note 024",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 024."
+    },
+    {
+      "id": "halcyon-doc-025",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 025",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 025."
+    },
+    {
+      "id": "halcyon-doc-026",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 026",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 026."
+    },
+    {
+      "id": "halcyon-doc-027",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 027",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 027."
+    },
+    {
+      "id": "halcyon-doc-028",
+      "kind": "runbook",
+      "title": "Halcyon operating note 028",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 028."
+    },
+    {
+      "id": "halcyon-doc-029",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 029",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 029."
+    },
+    {
+      "id": "halcyon-doc-030",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 030",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 030."
+    },
+    {
+      "id": "halcyon-doc-031",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 031",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 031."
+    },
+    {
+      "id": "halcyon-doc-032",
+      "kind": "runbook",
+      "title": "Halcyon operating note 032",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 032."
+    },
+    {
+      "id": "halcyon-doc-033",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 033",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 033."
+    },
+    {
+      "id": "halcyon-doc-034",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 034",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 034."
+    },
+    {
+      "id": "halcyon-doc-035",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 035",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 035."
+    },
+    {
+      "id": "halcyon-doc-036",
+      "kind": "runbook",
+      "title": "Halcyon operating note 036",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 036."
+    },
+    {
+      "id": "halcyon-doc-037",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 037",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 037."
+    },
+    {
+      "id": "halcyon-doc-038",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 038",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 038."
+    },
+    {
+      "id": "halcyon-doc-039",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 039",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 039."
+    },
+    {
+      "id": "halcyon-doc-040",
+      "kind": "runbook",
+      "title": "Halcyon operating note 040",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 040."
+    },
+    {
+      "id": "halcyon-doc-041",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 041",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 041."
+    },
+    {
+      "id": "halcyon-doc-042",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 042",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 042."
+    },
+    {
+      "id": "halcyon-doc-043",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 043",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 043."
+    },
+    {
+      "id": "halcyon-doc-044",
+      "kind": "runbook",
+      "title": "Halcyon operating note 044",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 044."
+    },
+    {
+      "id": "halcyon-doc-045",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 045",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 045."
+    },
+    {
+      "id": "halcyon-doc-046",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 046",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 046."
+    },
+    {
+      "id": "halcyon-doc-047",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 047",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 047."
+    },
+    {
+      "id": "halcyon-doc-048",
+      "kind": "runbook",
+      "title": "Halcyon operating note 048",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 048."
+    },
+    {
+      "id": "halcyon-doc-049",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 049",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 049."
+    },
+    {
+      "id": "halcyon-doc-050",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 050",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 050."
+    },
+    {
+      "id": "halcyon-doc-051",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 051",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 051."
+    },
+    {
+      "id": "halcyon-doc-052",
+      "kind": "runbook",
+      "title": "Halcyon operating note 052",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 052."
+    },
+    {
+      "id": "halcyon-doc-053",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 053",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 053."
+    },
+    {
+      "id": "halcyon-doc-054",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 054",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 054."
+    },
+    {
+      "id": "halcyon-doc-055",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 055",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 055."
+    },
+    {
+      "id": "halcyon-doc-056",
+      "kind": "runbook",
+      "title": "Halcyon operating note 056",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 056."
+    },
+    {
+      "id": "halcyon-doc-057",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 057",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 057."
+    },
+    {
+      "id": "halcyon-doc-058",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 058",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 058."
+    },
+    {
+      "id": "halcyon-doc-059",
+      "kind": "postmortem",
+      "title": "Halcyon operating note 059",
+      "text": "The operating note explains a service dependency, the owner team, and the decision history for halcyon item 059."
+    }
+  ],
+  "edges": [
+    {
+      "type": "DEPENDS_ON",
+      "from": "halcyon-svc-01",
+      "to": "halcyon-svc-00"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "from": "halcyon-svc-02",
+      "to": "halcyon-svc-00"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "from": "halcyon-svc-03",
+      "to": "halcyon-svc-01"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "from": "halcyon-svc-04",
+      "to": "halcyon-svc-01"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "from": "halcyon-svc-05",
+      "to": "halcyon-svc-02"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "from": "halcyon-svc-06",
+      "to": "halcyon-svc-02"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "from": "halcyon-svc-07",
+      "to": "halcyon-svc-03"
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-000",
+      "to": "halcyon-team-00",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-02-01"
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-001",
+      "to": "halcyon-team-01",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-002",
+      "to": "halcyon-team-02",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-003",
+      "to": "halcyon-team-03",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-004",
+      "to": "halcyon-team-00",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-005",
+      "to": "halcyon-team-01",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-006",
+      "to": "halcyon-team-02",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-007",
+      "to": "halcyon-team-03",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-008",
+      "to": "halcyon-team-00",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-009",
+      "to": "halcyon-team-01",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-02-01"
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-010",
+      "to": "halcyon-team-02",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "MEMBER_OF",
+      "from": "halcyon-p-011",
+      "to": "halcyon-team-03",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "OWNS",
+      "from": "halcyon-team-00",
+      "to": "halcyon-svc-00",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "OWNS",
+      "from": "halcyon-team-01",
+      "to": "halcyon-svc-01",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "OWNS",
+      "from": "halcyon-team-02",
+      "to": "halcyon-svc-02",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "OWNS",
+      "from": "halcyon-team-03",
+      "to": "halcyon-svc-03",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "OWNS",
+      "from": "halcyon-team-00",
+      "to": "halcyon-svc-04",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "OWNS",
+      "from": "halcyon-team-01",
+      "to": "halcyon-svc-05",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "OWNS",
+      "from": "halcyon-team-02",
+      "to": "halcyon-svc-06",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "OWNS",
+      "from": "halcyon-team-03",
+      "to": "halcyon-svc-07",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-000",
+      "to": "halcyon-adr-000"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-000",
+      "to": "halcyon-svc-00"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-000",
+      "to": "halcyon-doc-000"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-001",
+      "to": "halcyon-adr-001"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-001",
+      "to": "halcyon-svc-01"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-001",
+      "to": "halcyon-doc-001"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-002",
+      "to": "halcyon-adr-002"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-002",
+      "to": "halcyon-svc-02"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-002",
+      "to": "halcyon-doc-002"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-003",
+      "to": "halcyon-adr-003"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-003",
+      "to": "halcyon-svc-03"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-003",
+      "to": "halcyon-doc-003"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-004",
+      "to": "halcyon-adr-004"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-004",
+      "to": "halcyon-svc-04"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-004",
+      "to": "halcyon-doc-004"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-005",
+      "to": "halcyon-adr-005"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-005",
+      "to": "halcyon-svc-05"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-005",
+      "to": "halcyon-doc-005"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-006",
+      "to": "halcyon-adr-006"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-006",
+      "to": "halcyon-svc-06"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-006",
+      "to": "halcyon-doc-006"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-007",
+      "to": "halcyon-adr-007"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-007",
+      "to": "halcyon-svc-07"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-007",
+      "to": "halcyon-doc-007"
+    },
+    {
+      "type": "SUPERSEDES",
+      "from": "halcyon-adr-007",
+      "to": "halcyon-adr-006"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-008",
+      "to": "halcyon-adr-008"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-008",
+      "to": "halcyon-svc-00"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-008",
+      "to": "halcyon-doc-008"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-009",
+      "to": "halcyon-adr-009"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-009",
+      "to": "halcyon-svc-01"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-009",
+      "to": "halcyon-doc-009"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-010",
+      "to": "halcyon-adr-010"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-010",
+      "to": "halcyon-svc-02"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-010",
+      "to": "halcyon-doc-010"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-011",
+      "to": "halcyon-adr-011"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-011",
+      "to": "halcyon-svc-03"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-011",
+      "to": "halcyon-doc-011"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-000",
+      "to": "halcyon-adr-012"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-012",
+      "to": "halcyon-svc-04"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-012",
+      "to": "halcyon-doc-012"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-001",
+      "to": "halcyon-adr-013"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-013",
+      "to": "halcyon-svc-05"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-013",
+      "to": "halcyon-doc-013"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-002",
+      "to": "halcyon-adr-014"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-014",
+      "to": "halcyon-svc-06"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-014",
+      "to": "halcyon-doc-014"
+    },
+    {
+      "type": "SUPERSEDES",
+      "from": "halcyon-adr-014",
+      "to": "halcyon-adr-013"
+    },
+    {
+      "type": "DECIDED",
+      "from": "halcyon-p-003",
+      "to": "halcyon-adr-015"
+    },
+    {
+      "type": "AFFECTS",
+      "from": "halcyon-adr-015",
+      "to": "halcyon-svc-07"
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "from": "halcyon-adr-015",
+      "to": "halcyon-doc-015"
+    },
+    {
+      "type": "CAUSED_BY",
+      "from": "halcyon-inc-000",
+      "to": "halcyon-adr-000"
+    },
+    {
+      "type": "CAUSED_BY",
+      "from": "halcyon-inc-001",
+      "to": "halcyon-adr-007"
+    },
+    {
+      "type": "CAUSED_BY",
+      "from": "halcyon-inc-002",
+      "to": "halcyon-adr-014"
+    }
+  ],
+  "needles": [
+    {
+      "id": "halcyon-needle-00",
+      "type": "multihop",
+      "question": "Which team owns the service upstream of Halcyon Service 04?",
+      "ground_truth_answer": "Halcyon Platform Team 02",
+      "ground_truth_node_ids": [
+        "halcyon-svc-04",
+        "halcyon-svc-01",
+        "halcyon-team-02"
+      ]
+    },
+    {
+      "id": "halcyon-needle-01",
+      "type": "temporal",
+      "question": "Who owned Halcyon Service 02 on 2024-06-01?",
+      "ground_truth_answer": "Halcyon Platform Team 02",
+      "ground_truth_node_ids": [
+        "halcyon-svc-02",
+        "halcyon-team-02"
+      ]
+    },
+    {
+      "id": "halcyon-needle-02",
+      "type": "absence",
+      "question": "Is Halcyon Person 011 connected to Halcyon Service 00?",
+      "ground_truth_answer": "No connecting path exists.",
+      "ground_truth_node_ids": [
+        "halcyon-p-011",
+        "halcyon-svc-00"
+      ]
+    },
+    {
+      "id": "halcyon-needle-03",
+      "type": "aggregate",
+      "question": "Which services have the largest blast radius?",
+      "ground_truth_answer": "Halcyon Service 00",
+      "ground_truth_node_ids": [
+        "halcyon-svc-00"
+      ]
+    },
+    {
+      "id": "halcyon-needle-04",
+      "type": "decision-lineage",
+      "question": "Which decision superseded Reliability decision 000?",
+      "ground_truth_answer": "Reliability decision 007",
+      "ground_truth_node_ids": [
+        "halcyon-adr-000",
+        "halcyon-adr-007"
+      ]
+    },
+    {
+      "id": "halcyon-needle-05",
+      "type": "counterfactual",
+      "question": "What changes if Halcyon Person 000 leaves?",
+      "ground_truth_answer": "The service coverage alert increases.",
+      "ground_truth_node_ids": [
+        "halcyon-p-000",
+        "halcyon-svc-00"
+      ]
+    },
+    {
+      "id": "halcyon-needle-06",
+      "type": "multihop",
+      "question": "Which team is responsible for the dependency behind Halcyon Service 04?",
+      "ground_truth_answer": "Halcyon Platform Team 01",
+      "ground_truth_node_ids": [
+        "halcyon-svc-04",
+        "halcyon-team-01"
+      ]
+    },
+    {
+      "id": "halcyon-needle-07",
+      "type": "temporal",
+      "question": "Who owned Halcyon Service 01 on 2025-03-01?",
+      "ground_truth_answer": "Halcyon Platform Team 01",
+      "ground_truth_node_ids": [
+        "halcyon-svc-01",
+        "halcyon-team-01"
+      ]
+    },
+    {
+      "id": "halcyon-needle-08",
+      "type": "absence",
+      "question": "Does Halcyon Person 006 have a path to Halcyon Service 01?",
+      "ground_truth_answer": "No connecting path exists.",
+      "ground_truth_node_ids": [
+        "halcyon-p-006",
+        "halcyon-svc-01"
+      ]
+    },
+    {
+      "id": "halcyon-needle-09",
+      "type": "decision-lineage",
+      "question": "What is the history of Reliability decision 001?",
+      "ground_truth_answer": "Reliability decision 001",
+      "ground_truth_node_ids": [
+        "halcyon-adr-001"
+      ]
+    },
+    {
+      "id": "halcyon-needle-10",
+      "type": "counterfactual",
+      "question": "What changes if Halcyon Person 001 leaves?",
+      "ground_truth_answer": "The service coverage alert increases.",
+      "ground_truth_node_ids": [
+        "halcyon-p-001"
+      ]
+    },
+    {
+      "id": "halcyon-needle-11",
+      "type": "multihop",
+      "question": "Which team is responsible for the dependency behind Halcyon Service 05?",
+      "ground_truth_answer": "Halcyon Platform Team 02",
+      "ground_truth_node_ids": [
+        "halcyon-svc-05",
+        "halcyon-team-02"
+      ]
+    },
+    {
+      "id": "halcyon-needle-12",
+      "type": "temporal",
+      "question": "Who owned Halcyon Service 02 on 2025-03-01?",
+      "ground_truth_answer": "Halcyon Platform Team 02",
+      "ground_truth_node_ids": [
+        "halcyon-svc-02",
+        "halcyon-team-02"
+      ]
+    },
+    {
+      "id": "halcyon-needle-13",
+      "type": "absence",
+      "question": "Does Halcyon Person 007 have a path to Halcyon Service 02?",
+      "ground_truth_answer": "No connecting path exists.",
+      "ground_truth_node_ids": [
+        "halcyon-p-007",
+        "halcyon-svc-02"
+      ]
+    },
+    {
+      "id": "halcyon-needle-14",
+      "type": "decision-lineage",
+      "question": "What is the history of Reliability decision 002?",
+      "ground_truth_answer": "Reliability decision 002",
+      "ground_truth_node_ids": [
+        "halcyon-adr-002"
+      ]
+    },
+    {
+      "id": "halcyon-needle-15",
+      "type": "counterfactual",
+      "question": "What changes if Halcyon Person 002 leaves?",
+      "ground_truth_answer": "The service coverage alert increases.",
+      "ground_truth_node_ids": [
+        "halcyon-p-002"
+      ]
+    },
+    {
+      "id": "halcyon-needle-16",
+      "type": "multihop",
+      "question": "Which team is responsible for the dependency behind Halcyon Service 06?",
+      "ground_truth_answer": "Halcyon Platform Team 03",
+      "ground_truth_node_ids": [
+        "halcyon-svc-06",
+        "halcyon-team-03"
+      ]
+    },
+    {
+      "id": "halcyon-needle-17",
+      "type": "temporal",
+      "question": "Who owned Halcyon Service 03 on 2025-03-01?",
+      "ground_truth_answer": "Halcyon Platform Team 03",
+      "ground_truth_node_ids": [
+        "halcyon-svc-03",
+        "halcyon-team-03"
+      ]
+    },
+    {
+      "id": "halcyon-needle-18",
+      "type": "absence",
+      "question": "Does Halcyon Person 008 have a path to Halcyon Service 03?",
+      "ground_truth_answer": "No connecting path exists.",
+      "ground_truth_node_ids": [
+        "halcyon-p-008",
+        "halcyon-svc-03"
+      ]
+    },
+    {
+      "id": "halcyon-needle-19",
+      "type": "decision-lineage",
+      "question": "What is the history of Reliability decision 003?",
+      "ground_truth_answer": "Reliability decision 003",
+      "ground_truth_node_ids": [
+        "halcyon-adr-003"
+      ]
+    },
+    {
+      "id": "halcyon-needle-20",
+      "type": "counterfactual",
+      "question": "What changes if Halcyon Person 003 leaves?",
+      "ground_truth_answer": "The service coverage alert increases.",
+      "ground_truth_node_ids": [
+        "halcyon-p-003"
+      ]
+    },
+    {
+      "id": "halcyon-needle-21",
+      "type": "multihop",
+      "question": "Which team is responsible for the dependency behind Halcyon Service 07?",
+      "ground_truth_answer": "Halcyon Platform Team 00",
+      "ground_truth_node_ids": [
+        "halcyon-svc-07",
+        "halcyon-team-00"
+      ]
+    },
+    {
+      "id": "halcyon-needle-22",
+      "type": "temporal",
+      "question": "Who owned Halcyon Service 04 on 2025-03-01?",
+      "ground_truth_answer": "Halcyon Platform Team 00",
+      "ground_truth_node_ids": [
+        "halcyon-svc-04",
+        "halcyon-team-00"
+      ]
+    },
+    {
+      "id": "halcyon-needle-23",
+      "type": "absence",
+      "question": "Does Halcyon Person 009 have a path to Halcyon Service 04?",
+      "ground_truth_answer": "No connecting path exists.",
+      "ground_truth_node_ids": [
+        "halcyon-p-009",
+        "halcyon-svc-04"
+      ]
+    },
+    {
+      "id": "halcyon-needle-24",
+      "type": "decision-lineage",
+      "question": "What is the history of Reliability decision 004?",
+      "ground_truth_answer": "Reliability decision 004",
+      "ground_truth_node_ids": [
+        "halcyon-adr-004"
+      ]
+    },
+    {
+      "id": "halcyon-needle-25",
+      "type": "counterfactual",
+      "question": "What changes if Halcyon Person 004 leaves?",
+      "ground_truth_answer": "The service coverage alert increases.",
+      "ground_truth_node_ids": [
+        "halcyon-p-004"
+      ]
+    },
+    {
+      "id": "halcyon-needle-26",
+      "type": "multihop",
+      "question": "Which team is responsible for the dependency behind Halcyon Service 00?",
+      "ground_truth_answer": "Halcyon Platform Team 01",
+      "ground_truth_node_ids": [
+        "halcyon-svc-00",
+        "halcyon-team-01"
+      ]
+    },
+    {
+      "id": "halcyon-needle-27",
+      "type": "temporal",
+      "question": "Who owned Halcyon Service 05 on 2025-03-01?",
+      "ground_truth_answer": "Halcyon Platform Team 01",
+      "ground_truth_node_ids": [
+        "halcyon-svc-05",
+        "halcyon-team-01"
+      ]
+    },
+    {
+      "id": "halcyon-needle-28",
+      "type": "absence",
+      "question": "Does Halcyon Person 010 have a path to Halcyon Service 05?",
+      "ground_truth_answer": "No connecting path exists.",
+      "ground_truth_node_ids": [
+        "halcyon-p-010",
+        "halcyon-svc-05"
+      ]
+    },
+    {
+      "id": "halcyon-needle-29",
+      "type": "decision-lineage",
+      "question": "What is the history of Reliability decision 005?",
+      "ground_truth_answer": "Reliability decision 005",
+      "ground_truth_node_ids": [
+        "halcyon-adr-005"
+      ]
+    },
+    {
+      "id": "halcyon-needle-30",
+      "type": "counterfactual",
+      "question": "What changes if Halcyon Person 005 leaves?",
+      "ground_truth_answer": "The service coverage alert increases.",
+      "ground_truth_node_ids": [
+        "halcyon-p-005"
+      ]
+    },
+    {
+      "id": "halcyon-needle-31",
+      "type": "multihop",
+      "question": "Which team is responsible for the dependency behind Halcyon Service 01?",
+      "ground_truth_answer": "Halcyon Platform Team 02",
+      "ground_truth_node_ids": [
+        "halcyon-svc-01",
+        "halcyon-team-02"
+      ]
+    },
+    {
+      "id": "halcyon-needle-32",
+      "type": "temporal",
+      "question": "Who owned Halcyon Service 06 on 2025-03-01?",
+      "ground_truth_answer": "Halcyon Platform Team 02",
+      "ground_truth_node_ids": [
+        "halcyon-svc-06",
+        "halcyon-team-02"
+      ]
+    },
+    {
+      "id": "halcyon-needle-33",
+      "type": "absence",
+      "question": "Does Halcyon Person 011 have a path to Halcyon Service 06?",
+      "ground_truth_answer": "No connecting path exists.",
+      "ground_truth_node_ids": [
+        "halcyon-p-011",
+        "halcyon-svc-06"
+      ]
+    },
+    {
+      "id": "halcyon-needle-34",
+      "type": "decision-lineage",
+      "question": "What is the history of Reliability decision 006?",
+      "ground_truth_answer": "Reliability decision 006",
+      "ground_truth_node_ids": [
+        "halcyon-adr-006"
+      ]
+    },
+    {
+      "id": "halcyon-needle-35",
+      "type": "counterfactual",
+      "question": "What changes if Halcyon Person 006 leaves?",
+      "ground_truth_answer": "The service coverage alert increases.",
+      "ground_truth_node_ids": [
+        "halcyon-p-006"
+      ]
+    },
+    {
+      "id": "halcyon-needle-36",
+      "type": "multihop",
+      "question": "Which team is responsible for the dependency behind Halcyon Service 02?",
+      "ground_truth_answer": "Halcyon Platform Team 03",
+      "ground_truth_node_ids": [
+        "halcyon-svc-02",
+        "halcyon-team-03"
+      ]
+    },
+    {
+      "id": "halcyon-needle-37",
+      "type": "temporal",
+      "question": "Who owned Halcyon Service 07 on 2025-03-01?",
+      "ground_truth_answer": "Halcyon Platform Team 03",
+      "ground_truth_node_ids": [
+        "halcyon-svc-07",
+        "halcyon-team-03"
+      ]
+    },
+    {
+      "id": "halcyon-needle-38",
+      "type": "absence",
+      "question": "Does Halcyon Person 000 have a path to Halcyon Service 07?",
+      "ground_truth_answer": "No connecting path exists.",
+      "ground_truth_node_ids": [
+        "halcyon-p-000",
+        "halcyon-svc-07"
+      ]
+    },
+    {
+      "id": "halcyon-needle-39",
+      "type": "decision-lineage",
+      "question": "What is the history of Reliability decision 007?",
+      "ground_truth_answer": "Reliability decision 007",
+      "ground_truth_node_ids": [
+        "halcyon-adr-007"
+      ]
+    },
+    {
+      "id": "halcyon-needle-40",
+      "type": "counterfactual",
+      "question": "What changes if Halcyon Person 007 leaves?",
+      "ground_truth_answer": "The service coverage alert increases.",
+      "ground_truth_node_ids": [
+        "halcyon-p-007"
+      ]
+    }
+  ]
+}

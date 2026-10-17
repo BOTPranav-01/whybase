@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: whybase
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: FALKORDB_URL
+        sync: false
+      - key: FALKORDB_USERNAME
+        sync: false
+      - key: FALKORDB_PASSWORD
+        sync: false
+      - key: LLM_BASE_URL
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        sync: false

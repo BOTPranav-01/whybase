@@ -1,0 +1,794 @@
+[
+  {
+    "id": "northwind-needle-00",
+    "type": "multihop",
+    "question": "Which team owns the service upstream of Northwind Service 04?",
+    "ground_truth_answer": "Northwind Platform Team 02",
+    "ground_truth_node_ids": [
+      "northwind-svc-04",
+      "northwind-svc-01",
+      "northwind-team-02"
+    ]
+  },
+  {
+    "id": "northwind-needle-01",
+    "type": "temporal",
+    "question": "Who owned Northwind Service 02 on 2024-06-01?",
+    "ground_truth_answer": "Northwind Platform Team 02",
+    "ground_truth_node_ids": [
+      "northwind-svc-02",
+      "northwind-team-02"
+    ]
+  },
+  {
+    "id": "northwind-needle-02",
+    "type": "absence",
+    "question": "Is Northwind Person 044 connected to Northwind Service 00?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "northwind-p-044",
+      "northwind-svc-00"
+    ]
+  },
+  {
+    "id": "northwind-needle-03",
+    "type": "aggregate",
+    "question": "Which services have the largest blast radius?",
+    "ground_truth_answer": "Northwind Service 00",
+    "ground_truth_node_ids": [
+      "northwind-svc-00"
+    ]
+  },
+  {
+    "id": "northwind-needle-04",
+    "type": "decision-lineage",
+    "question": "Which decision superseded Reliability decision 000?",
+    "ground_truth_answer": "Reliability decision 007",
+    "ground_truth_node_ids": [
+      "northwind-adr-000",
+      "northwind-adr-007"
+    ]
+  },
+  {
+    "id": "northwind-needle-05",
+    "type": "counterfactual",
+    "question": "What changes if Northwind Person 000 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "northwind-p-000",
+      "northwind-svc-00"
+    ]
+  },
+  {
+    "id": "northwind-needle-06",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Northwind Service 04?",
+    "ground_truth_answer": "Northwind Platform Team 01",
+    "ground_truth_node_ids": [
+      "northwind-svc-04",
+      "northwind-team-01"
+    ]
+  },
+  {
+    "id": "northwind-needle-07",
+    "type": "temporal",
+    "question": "Who owned Northwind Service 01 on 2025-03-01?",
+    "ground_truth_answer": "Northwind Platform Team 01",
+    "ground_truth_node_ids": [
+      "northwind-svc-01",
+      "northwind-team-01"
+    ]
+  },
+  {
+    "id": "northwind-needle-08",
+    "type": "absence",
+    "question": "Does Northwind Person 006 have a path to Northwind Service 09?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "northwind-p-006",
+      "northwind-svc-09"
+    ]
+  },
+  {
+    "id": "northwind-needle-09",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 001?",
+    "ground_truth_answer": "Reliability decision 001",
+    "ground_truth_node_ids": [
+      "northwind-adr-001"
+    ]
+  },
+  {
+    "id": "northwind-needle-10",
+    "type": "counterfactual",
+    "question": "What changes if Northwind Person 001 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "northwind-p-001"
+    ]
+  },
+  {
+    "id": "northwind-needle-11",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Northwind Service 05?",
+    "ground_truth_answer": "Northwind Platform Team 02",
+    "ground_truth_node_ids": [
+      "northwind-svc-05",
+      "northwind-team-02"
+    ]
+  },
+  {
+    "id": "northwind-needle-12",
+    "type": "temporal",
+    "question": "Who owned Northwind Service 02 on 2025-03-01?",
+    "ground_truth_answer": "Northwind Platform Team 02",
+    "ground_truth_node_ids": [
+      "northwind-svc-02",
+      "northwind-team-02"
+    ]
+  },
+  {
+    "id": "northwind-needle-13",
+    "type": "absence",
+    "question": "Does Northwind Person 007 have a path to Northwind Service 10?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "northwind-p-007",
+      "northwind-svc-10"
+    ]
+  },
+  {
+    "id": "northwind-needle-14",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 002?",
+    "ground_truth_answer": "Reliability decision 002",
+    "ground_truth_node_ids": [
+      "northwind-adr-002"
+    ]
+  },
+  {
+    "id": "northwind-needle-15",
+    "type": "counterfactual",
+    "question": "What changes if Northwind Person 002 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "northwind-p-002"
+    ]
+  },
+  {
+    "id": "northwind-needle-16",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Northwind Service 06?",
+    "ground_truth_answer": "Northwind Platform Team 03",
+    "ground_truth_node_ids": [
+      "northwind-svc-06",
+      "northwind-team-03"
+    ]
+  },
+  {
+    "id": "northwind-needle-17",
+    "type": "temporal",
+    "question": "Who owned Northwind Service 03 on 2025-03-01?",
+    "ground_truth_answer": "Northwind Platform Team 03",
+    "ground_truth_node_ids": [
+      "northwind-svc-03",
+      "northwind-team-03"
+    ]
+  },
+  {
+    "id": "northwind-needle-18",
+    "type": "absence",
+    "question": "Does Northwind Person 008 have a path to Northwind Service 11?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "northwind-p-008",
+      "northwind-svc-11"
+    ]
+  },
+  {
+    "id": "northwind-needle-19",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 003?",
+    "ground_truth_answer": "Reliability decision 003",
+    "ground_truth_node_ids": [
+      "northwind-adr-003"
+    ]
+  },
+  {
+    "id": "northwind-needle-20",
+    "type": "counterfactual",
+    "question": "What changes if Northwind Person 003 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "northwind-p-003"
+    ]
+  },
+  {
+    "id": "northwind-needle-21",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Northwind Service 07?",
+    "ground_truth_answer": "Northwind Platform Team 04",
+    "ground_truth_node_ids": [
+      "northwind-svc-07",
+      "northwind-team-04"
+    ]
+  },
+  {
+    "id": "northwind-needle-22",
+    "type": "temporal",
+    "question": "Who owned Northwind Service 04 on 2025-03-01?",
+    "ground_truth_answer": "Northwind Platform Team 04",
+    "ground_truth_node_ids": [
+      "northwind-svc-04",
+      "northwind-team-04"
+    ]
+  },
+  {
+    "id": "northwind-needle-23",
+    "type": "absence",
+    "question": "Does Northwind Person 009 have a path to Northwind Service 12?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "northwind-p-009",
+      "northwind-svc-12"
+    ]
+  },
+  {
+    "id": "northwind-needle-24",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 004?",
+    "ground_truth_answer": "Reliability decision 004",
+    "ground_truth_node_ids": [
+      "northwind-adr-004"
+    ]
+  },
+  {
+    "id": "northwind-needle-25",
+    "type": "counterfactual",
+    "question": "What changes if Northwind Person 004 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "northwind-p-004"
+    ]
+  },
+  {
+    "id": "northwind-needle-26",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Northwind Service 08?",
+    "ground_truth_answer": "Northwind Platform Team 05",
+    "ground_truth_node_ids": [
+      "northwind-svc-08",
+      "northwind-team-05"
+    ]
+  },
+  {
+    "id": "northwind-needle-27",
+    "type": "temporal",
+    "question": "Who owned Northwind Service 05 on 2025-03-01?",
+    "ground_truth_answer": "Northwind Platform Team 05",
+    "ground_truth_node_ids": [
+      "northwind-svc-05",
+      "northwind-team-05"
+    ]
+  },
+  {
+    "id": "northwind-needle-28",
+    "type": "absence",
+    "question": "Does Northwind Person 010 have a path to Northwind Service 13?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "northwind-p-010",
+      "northwind-svc-13"
+    ]
+  },
+  {
+    "id": "northwind-needle-29",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 005?",
+    "ground_truth_answer": "Reliability decision 005",
+    "ground_truth_node_ids": [
+      "northwind-adr-005"
+    ]
+  },
+  {
+    "id": "northwind-needle-30",
+    "type": "counterfactual",
+    "question": "What changes if Northwind Person 005 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "northwind-p-005"
+    ]
+  },
+  {
+    "id": "northwind-needle-31",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Northwind Service 09?",
+    "ground_truth_answer": "Northwind Platform Team 06",
+    "ground_truth_node_ids": [
+      "northwind-svc-09",
+      "northwind-team-06"
+    ]
+  },
+  {
+    "id": "northwind-needle-32",
+    "type": "temporal",
+    "question": "Who owned Northwind Service 06 on 2025-03-01?",
+    "ground_truth_answer": "Northwind Platform Team 06",
+    "ground_truth_node_ids": [
+      "northwind-svc-06",
+      "northwind-team-06"
+    ]
+  },
+  {
+    "id": "northwind-needle-33",
+    "type": "absence",
+    "question": "Does Northwind Person 011 have a path to Northwind Service 14?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "northwind-p-011",
+      "northwind-svc-14"
+    ]
+  },
+  {
+    "id": "northwind-needle-34",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 006?",
+    "ground_truth_answer": "Reliability decision 006",
+    "ground_truth_node_ids": [
+      "northwind-adr-006"
+    ]
+  },
+  {
+    "id": "northwind-needle-35",
+    "type": "counterfactual",
+    "question": "What changes if Northwind Person 006 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "northwind-p-006"
+    ]
+  },
+  {
+    "id": "northwind-needle-36",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Northwind Service 10?",
+    "ground_truth_answer": "Northwind Platform Team 07",
+    "ground_truth_node_ids": [
+      "northwind-svc-10",
+      "northwind-team-07"
+    ]
+  },
+  {
+    "id": "northwind-needle-37",
+    "type": "temporal",
+    "question": "Who owned Northwind Service 07 on 2025-03-01?",
+    "ground_truth_answer": "Northwind Platform Team 07",
+    "ground_truth_node_ids": [
+      "northwind-svc-07",
+      "northwind-team-07"
+    ]
+  },
+  {
+    "id": "northwind-needle-38",
+    "type": "absence",
+    "question": "Does Northwind Person 012 have a path to Northwind Service 15?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "northwind-p-012",
+      "northwind-svc-15"
+    ]
+  },
+  {
+    "id": "northwind-needle-39",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 007?",
+    "ground_truth_answer": "Reliability decision 007",
+    "ground_truth_node_ids": [
+      "northwind-adr-007"
+    ]
+  },
+  {
+    "id": "northwind-needle-40",
+    "type": "counterfactual",
+    "question": "What changes if Northwind Person 007 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "northwind-p-007"
+    ]
+  },
+  {
+    "id": "halcyon-needle-00",
+    "type": "multihop",
+    "question": "Which team owns the service upstream of Halcyon Service 04?",
+    "ground_truth_answer": "Halcyon Platform Team 02",
+    "ground_truth_node_ids": [
+      "halcyon-svc-04",
+      "halcyon-svc-01",
+      "halcyon-team-02"
+    ]
+  },
+  {
+    "id": "halcyon-needle-01",
+    "type": "temporal",
+    "question": "Who owned Halcyon Service 02 on 2024-06-01?",
+    "ground_truth_answer": "Halcyon Platform Team 02",
+    "ground_truth_node_ids": [
+      "halcyon-svc-02",
+      "halcyon-team-02"
+    ]
+  },
+  {
+    "id": "halcyon-needle-02",
+    "type": "absence",
+    "question": "Is Halcyon Person 011 connected to Halcyon Service 00?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "halcyon-p-011",
+      "halcyon-svc-00"
+    ]
+  },
+  {
+    "id": "halcyon-needle-03",
+    "type": "aggregate",
+    "question": "Which services have the largest blast radius?",
+    "ground_truth_answer": "Halcyon Service 00",
+    "ground_truth_node_ids": [
+      "halcyon-svc-00"
+    ]
+  },
+  {
+    "id": "halcyon-needle-04",
+    "type": "decision-lineage",
+    "question": "Which decision superseded Reliability decision 000?",
+    "ground_truth_answer": "Reliability decision 007",
+    "ground_truth_node_ids": [
+      "halcyon-adr-000",
+      "halcyon-adr-007"
+    ]
+  },
+  {
+    "id": "halcyon-needle-05",
+    "type": "counterfactual",
+    "question": "What changes if Halcyon Person 000 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "halcyon-p-000",
+      "halcyon-svc-00"
+    ]
+  },
+  {
+    "id": "halcyon-needle-06",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Halcyon Service 04?",
+    "ground_truth_answer": "Halcyon Platform Team 01",
+    "ground_truth_node_ids": [
+      "halcyon-svc-04",
+      "halcyon-team-01"
+    ]
+  },
+  {
+    "id": "halcyon-needle-07",
+    "type": "temporal",
+    "question": "Who owned Halcyon Service 01 on 2025-03-01?",
+    "ground_truth_answer": "Halcyon Platform Team 01",
+    "ground_truth_node_ids": [
+      "halcyon-svc-01",
+      "halcyon-team-01"
+    ]
+  },
+  {
+    "id": "halcyon-needle-08",
+    "type": "absence",
+    "question": "Does Halcyon Person 006 have a path to Halcyon Service 01?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "halcyon-p-006",
+      "halcyon-svc-01"
+    ]
+  },
+  {
+    "id": "halcyon-needle-09",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 001?",
+    "ground_truth_answer": "Reliability decision 001",
+    "ground_truth_node_ids": [
+      "halcyon-adr-001"
+    ]
+  },
+  {
+    "id": "halcyon-needle-10",
+    "type": "counterfactual",
+    "question": "What changes if Halcyon Person 001 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "halcyon-p-001"
+    ]
+  },
+  {
+    "id": "halcyon-needle-11",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Halcyon Service 05?",
+    "ground_truth_answer": "Halcyon Platform Team 02",
+    "ground_truth_node_ids": [
+      "halcyon-svc-05",
+      "halcyon-team-02"
+    ]
+  },
+  {
+    "id": "halcyon-needle-12",
+    "type": "temporal",
+    "question": "Who owned Halcyon Service 02 on 2025-03-01?",
+    "ground_truth_answer": "Halcyon Platform Team 02",
+    "ground_truth_node_ids": [
+      "halcyon-svc-02",
+      "halcyon-team-02"
+    ]
+  },
+  {
+    "id": "halcyon-needle-13",
+    "type": "absence",
+    "question": "Does Halcyon Person 007 have a path to Halcyon Service 02?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "halcyon-p-007",
+      "halcyon-svc-02"
+    ]
+  },
+  {
+    "id": "halcyon-needle-14",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 002?",
+    "ground_truth_answer": "Reliability decision 002",
+    "ground_truth_node_ids": [
+      "halcyon-adr-002"
+    ]
+  },
+  {
+    "id": "halcyon-needle-15",
+    "type": "counterfactual",
+    "question": "What changes if Halcyon Person 002 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "halcyon-p-002"
+    ]
+  },
+  {
+    "id": "halcyon-needle-16",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Halcyon Service 06?",
+    "ground_truth_answer": "Halcyon Platform Team 03",
+    "ground_truth_node_ids": [
+      "halcyon-svc-06",
+      "halcyon-team-03"
+    ]
+  },
+  {
+    "id": "halcyon-needle-17",
+    "type": "temporal",
+    "question": "Who owned Halcyon Service 03 on 2025-03-01?",
+    "ground_truth_answer": "Halcyon Platform Team 03",
+    "ground_truth_node_ids": [
+      "halcyon-svc-03",
+      "halcyon-team-03"
+    ]
+  },
+  {
+    "id": "halcyon-needle-18",
+    "type": "absence",
+    "question": "Does Halcyon Person 008 have a path to Halcyon Service 03?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "halcyon-p-008",
+      "halcyon-svc-03"
+    ]
+  },
+  {
+    "id": "halcyon-needle-19",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 003?",
+    "ground_truth_answer": "Reliability decision 003",
+    "ground_truth_node_ids": [
+      "halcyon-adr-003"
+    ]
+  },
+  {
+    "id": "halcyon-needle-20",
+    "type": "counterfactual",
+    "question": "What changes if Halcyon Person 003 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "halcyon-p-003"
+    ]
+  },
+  {
+    "id": "halcyon-needle-21",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Halcyon Service 07?",
+    "ground_truth_answer": "Halcyon Platform Team 00",
+    "ground_truth_node_ids": [
+      "halcyon-svc-07",
+      "halcyon-team-00"
+    ]
+  },
+  {
+    "id": "halcyon-needle-22",
+    "type": "temporal",
+    "question": "Who owned Halcyon Service 04 on 2025-03-01?",
+    "ground_truth_answer": "Halcyon Platform Team 00",
+    "ground_truth_node_ids": [
+      "halcyon-svc-04",
+      "halcyon-team-00"
+    ]
+  },
+  {
+    "id": "halcyon-needle-23",
+    "type": "absence",
+    "question": "Does Halcyon Person 009 have a path to Halcyon Service 04?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "halcyon-p-009",
+      "halcyon-svc-04"
+    ]
+  },
+  {
+    "id": "halcyon-needle-24",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 004?",
+    "ground_truth_answer": "Reliability decision 004",
+    "ground_truth_node_ids": [
+      "halcyon-adr-004"
+    ]
+  },
+  {
+    "id": "halcyon-needle-25",
+    "type": "counterfactual",
+    "question": "What changes if Halcyon Person 004 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "halcyon-p-004"
+    ]
+  },
+  {
+    "id": "halcyon-needle-26",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Halcyon Service 00?",
+    "ground_truth_answer": "Halcyon Platform Team 01",
+    "ground_truth_node_ids": [
+      "halcyon-svc-00",
+      "halcyon-team-01"
+    ]
+  },
+  {
+    "id": "halcyon-needle-27",
+    "type": "temporal",
+    "question": "Who owned Halcyon Service 05 on 2025-03-01?",
+    "ground_truth_answer": "Halcyon Platform Team 01",
+    "ground_truth_node_ids": [
+      "halcyon-svc-05",
+      "halcyon-team-01"
+    ]
+  },
+  {
+    "id": "halcyon-needle-28",
+    "type": "absence",
+    "question": "Does Halcyon Person 010 have a path to Halcyon Service 05?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "halcyon-p-010",
+      "halcyon-svc-05"
+    ]
+  },
+  {
+    "id": "halcyon-needle-29",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 005?",
+    "ground_truth_answer": "Reliability decision 005",
+    "ground_truth_node_ids": [
+      "halcyon-adr-005"
+    ]
+  },
+  {
+    "id": "halcyon-needle-30",
+    "type": "counterfactual",
+    "question": "What changes if Halcyon Person 005 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "halcyon-p-005"
+    ]
+  },
+  {
+    "id": "halcyon-needle-31",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Halcyon Service 01?",
+    "ground_truth_answer": "Halcyon Platform Team 02",
+    "ground_truth_node_ids": [
+      "halcyon-svc-01",
+      "halcyon-team-02"
+    ]
+  },
+  {
+    "id": "halcyon-needle-32",
+    "type": "temporal",
+    "question": "Who owned Halcyon Service 06 on 2025-03-01?",
+    "ground_truth_answer": "Halcyon Platform Team 02",
+    "ground_truth_node_ids": [
+      "halcyon-svc-06",
+      "halcyon-team-02"
+    ]
+  },
+  {
+    "id": "halcyon-needle-33",
+    "type": "absence",
+    "question": "Does Halcyon Person 011 have a path to Halcyon Service 06?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "halcyon-p-011",
+      "halcyon-svc-06"
+    ]
+  },
+  {
+    "id": "halcyon-needle-34",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 006?",
+    "ground_truth_answer": "Reliability decision 006",
+    "ground_truth_node_ids": [
+      "halcyon-adr-006"
+    ]
+  },
+  {
+    "id": "halcyon-needle-35",
+    "type": "counterfactual",
+    "question": "What changes if Halcyon Person 006 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "halcyon-p-006"
+    ]
+  },
+  {
+    "id": "halcyon-needle-36",
+    "type": "multihop",
+    "question": "Which team is responsible for the dependency behind Halcyon Service 02?",
+    "ground_truth_answer": "Halcyon Platform Team 03",
+    "ground_truth_node_ids": [
+      "halcyon-svc-02",
+      "halcyon-team-03"
+    ]
+  },
+  {
+    "id": "halcyon-needle-37",
+    "type": "temporal",
+    "question": "Who owned Halcyon Service 07 on 2025-03-01?",
+    "ground_truth_answer": "Halcyon Platform Team 03",
+    "ground_truth_node_ids": [
+      "halcyon-svc-07",
+      "halcyon-team-03"
+    ]
+  },
+  {
+    "id": "halcyon-needle-38",
+    "type": "absence",
+    "question": "Does Halcyon Person 000 have a path to Halcyon Service 07?",
+    "ground_truth_answer": "No connecting path exists.",
+    "ground_truth_node_ids": [
+      "halcyon-p-000",
+      "halcyon-svc-07"
+    ]
+  },
+  {
+    "id": "halcyon-needle-39",
+    "type": "decision-lineage",
+    "question": "What is the history of Reliability decision 007?",
+    "ground_truth_answer": "Reliability decision 007",
+    "ground_truth_node_ids": [
+      "halcyon-adr-007"
+    ]
+  },
+  {
+    "id": "halcyon-needle-40",
+    "type": "counterfactual",
+    "question": "What changes if Halcyon Person 007 leaves?",
+    "ground_truth_answer": "The service coverage alert increases.",
+    "ground_truth_node_ids": [
+      "halcyon-p-007"
+    ]
+  }
+]
