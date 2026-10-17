@@ -25,5 +25,7 @@ def test_tenant_validation():
 
 
 def test_read_guard_rejects_writes():
-    assert READ_DENY.search("MATCH (n) RETURN n")
     assert READ_DENY.search("MATCH (n) DELETE n")
+    assert READ_DENY.search("MATCH (n) SET n.name = 'x'")
+    assert READ_DENY.search("CREATE (n:Person)")
+    assert READ_DENY.search("MATCH (n) RETURN n") is None
